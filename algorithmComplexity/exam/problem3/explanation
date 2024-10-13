@@ -1,0 +1,44 @@
+problem3
+    - this contains the tower of hanoi problem 
+        - A = source
+        - B = auxiliary
+        - C = target
+    - the disk cannot be stacked in each other, if the current disk that is in a tower is smaller it cannot be stacked with the larger disk 
+    - Exponential time complexity T(n) = 2^n - 1. Due to the Tower of hanoi using the recursive algorithm, it is slow, because each time it is looping it doubling the subproblems, which if the N is larger it will takes time to finish the algorithm. 
+
+output:
+Enter number: 5
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+Move disk 4 from A to B
+Move disk 1 from C to B
+Move disk 2 from C to A
+Move disk 1 from B to A
+Move disk 3 from C to B
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 5 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+Move disk 3 from B to A
+Move disk 1 from C to B
+Move disk 2 from C to A
+Move disk 1 from B to A
+Move disk 4 from B to C
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+N: 5
+Total number of moves: 31

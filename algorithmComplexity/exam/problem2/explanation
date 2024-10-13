@@ -1,0 +1,23 @@
+The running time in the main function are:
+    O(1) - in initializations
+
+Time Complexity Analysis
+    - In the main function there are a lot of initializations and for loops. The running time of main funciton alone is "O(n)". 
+    - The bubble sort by definition the time complexity are 
+            - worst case scenario:      O(n²) 
+            - average case scenario:    O(n²)
+            - best case scenario:       O(n)
+                - if and only if the array is already sorted
+    - The merge sort by definition, the time complexity are consistent O(n log n) across Best, Average, and Worst case scenarios. In this program it has three sizes of array small(500), medium(5000), and large(15000). By definition, merge sort is the fastest between the two sorting algorithms and it can also be seen in the output. 
+    - Overall The Time complexity is O(n²)
+
+    output:
+        Bubble Sort Timing:
+        Bubble sort time for small array: 7 ms
+        Bubble sort time for medium array: 318 ms
+        Bubble sort time for large array: 2033 ms
+
+        Merge Sort Timing:
+        Merge sort time for small array: 0 ms
+        Merge sort time for medium array: 3 ms
+        Merge sort time for large array: 10 ms

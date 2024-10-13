@@ -1,0 +1,25 @@
+Problem1 is using pythagoras and summation formulas
+
+"Enter N" defines the size of the array 
+after entering the X and Y, natNum is the first function to be used
+
+- natNum function having a parameter of the size of the array (N)
+    - it will process the sum of natural numbers.
+        - initializing the sum = 0
+        - for loop 
+            - initializing the first number which is 1 and adding it up to it reach the N 
+    - this make the natNum function O(N)
+
+- pythagoras function having the parameter of x and y
+    - running time of O(n)
+        - using the pythagoras formula 
+        - for loop
+            - calculating the difference of the current x to the previous x and same goes to y, then squares the difference and adding the x and y then storing it in sum until it reaches the last index of the array.
+        - returning the square root of the sum which contains the euclidian distance.
+        
+output:
+Enter N: 4
+Enter values for x: 12 65 23 72
+Enter values for y: 75 88 39 55
+Sum of first 4 natural numbers: 10
+Pythagorean distance: 134
